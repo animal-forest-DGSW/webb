@@ -1,5 +1,6 @@
 let data=[
   {
+    id: 0,
     img:"https://ichef.bbci.co.uk/news/660/cpsprodpb/DCE1/production/_104454565_mary-mcgowan_caught-in-the-act_00001294.jpg",
     title : "하이하이",
     content : "특징 및 연락처",

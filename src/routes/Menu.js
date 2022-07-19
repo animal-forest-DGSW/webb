@@ -14,7 +14,7 @@ function Menu() {
           <div style={{position:'relative'}}>
           <img className='content project' src='../img/project.png'/>
           <div className='project-box'>
-          <h2>찾았소고</h2>
+          <h2>FOUNDgsw</h2>
           <h5>실종 동물 찾기 프로젝트</h5>
           </div>
           </div>

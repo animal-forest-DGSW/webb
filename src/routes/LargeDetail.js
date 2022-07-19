@@ -15,12 +15,13 @@ function LargeDetail() {
     {
       large.map(function(a, i) {
         return(
-          <Card className="cardBox" key={i} style={{ width: '18rem', margin:'40px 20px', display: 'inline-flex'}}>
-            <Card.Img className="cardImg" src={large[i].img} style={{height:'200px'}} variant="top"/>
+          <Card className="cardBox" key={a.id} style={{ width: '18rem', margin:'40px 20px', display: 'inline-flex'}}>
+            <Card.Img className="cardImg" src={a.img} style={{height:'200px'}} variant="top"/>
             <Card.Body>
-              <Card.Title className="cardName">{large[i].title}</Card.Title>
-              <Card.Text className="cardTxt">{large[i].content}</Card.Text>
-              <Button variant="primary" onClick={()=>{navigate('')}}>자세히보기</Button>
+              <Card.Title className="cardName">{a.title}</Card.Title>
+              <Card.Text className="cardTxt">{a.content}</Card.Text>
+              <Button variant="primary" onClick={()=>{navigate('/menu/l/detail/' + a.id)}}>
+                자세히보기</Button>
             </Card.Body>
           </Card>
           

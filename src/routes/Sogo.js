@@ -1,7 +1,7 @@
 function Sogo() {
   return(
     <>
-    <img src="../img/sogo.png"/>
+    <img src="./img/sogo.png" style={{width:'80%'}}/>
     </>
   )
 }

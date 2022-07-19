@@ -1,6 +1,11 @@
-import '../App.css';
-
+import axios from "axios";
+import { useState } from "react";
+import {useNavigate} from 'react-router-dom';
 function Sign() {
+
+  let[id, setId]=useState();
+  let[password, setPassword]=useState();
+  let navigate = useNavigate();
 
   return(
     <>
@@ -12,7 +17,11 @@ function Sign() {
         <input type='text' id="txtBox" placeholder="id"/>
         <input type='password' id="txtBox" placeholder="password"/>
         <div>
-          <button className='idBtn'>회원가입</button>
+          <button className='idBtn' onClick={()=>{
+            axios.post('',{asdf:id, adf:password})
+            .then((result)=>{navigate('/')})
+            .catch(()=>{})
+          }}>회원가입</button>
         </div>
         </div>
       </div>

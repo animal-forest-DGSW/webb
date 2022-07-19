@@ -238,7 +238,7 @@
   width: 600px;
   height: 100%;
   background-color: #F5F5F5;
-  margin:200px auto;
+  margin:80px auto;
   border-radius: 20px;
 }
 
@@ -269,5 +269,12 @@
   text-align: left;
   margin: auto;
   padding: 20px 0px;
+}
+
+.search{
+  --bs-btn-color: #7420FF;
+  --bs-btn-border-color: #7420FF;
+  --bs-btn-hover-bg: #7420FF;
+    --bs-btn-hover-border-color: #7420FF;
 }
 
