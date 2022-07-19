@@ -2,37 +2,272 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header{
+  height: 60px;
+  background-color: #ffffff85;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  max-width: 100%;
+  padding-left:50p;
+  z-index: 1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo{
+  padding-left: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.login{
+  padding-right: 50px!important;
+}
+
+
+
+.navbar{
+  height: 60px;
+  user-select: none;
+}
+
+
+.maintxt{
+  text-align: left;
+  position: absolute;
+  top:40%;
+  left: 10%;
+  z-index: 1;
+  user-select: none;
+}
+
+.h1{
+  font-size: 50px;
+}
+
+.call{
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.mainimg{
+  width: 60%;
+  position: absolute;
+  right: 10px;
+  bottom: 2%;
+}
+
+.fade-in-box{
+  display: inline-block;
+  padding: 10px;
+  animation: fadein 3s;
+  -moz-animation: fadein 3s;
+  -webkit-animation: fadein 3s; 
+  -o-animation: fadein 3s; 
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.find{
+  float: left;
+  margin-left: 50px;
+}
+
+.block{
+  width: 850px;
+  height: 700px;
+  float: left;
+}
+
+.s{
+  margin-right: 50px;
+}
+
+.project{
+  margin-top: 60px;
+  position:relative;
+}
+
+.project-box{
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  text-align: right;
+  color: #fff;
+}
+
+.category{
+  display: flex;
+  justify-content: center;
+  margin: 100px auto;
+}
+
+.content{
+  cursor: pointer;
+}
+
+
+.loginPg{
+  width: 600px;
+  height: 700px;
+  border-radius: 40px;
+  margin: 100px auto;
+  position: relative;
+  background-color: #F5F5F5;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.idBtn{
+  width: 400px;
+  height: 60px;
+  margin:20px;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #7420FF;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.findForm{
+  width: 600px;
+  height: 100%;
+  margin: 100px auto;
+  background-color:#F5F5F5;
+  border-radius: 20px;
 }
+
+.findDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#txtBox{
+  width: 400px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  border:none;
+  margin-bottom: 20px;
+}
+
+#txtBox:focus{
+  outline:none;
+}
+
+#number{
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom:20px;
+  padding: 10px;
+  display: flex;
+  
+}
+
+#number:focus{
+  outline: none;
+}
+
+.logoTxt{
+  padding: 20px 40px;
+  width:200px;
+}
+
+.imgPreview{
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.card-body{
+  text-align: left;
+}
+
+.cardTxt{
+  width:200px;
+  padding:0 5px;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+
+.d-btn{
+  border: none;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.animal{
+  width: 600px;
+  height: 100%;
+  background-color: #F5F5F5;
+  margin:200px auto;
+  border-radius: 20px;
+}
+
+.callBox{
+  width: 400px;
+  height: 100px;
+  padding: 10px;
+  background-color: #ffff;
+  margin:auto;
+  text-align: left;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.finish{
+  border: none;
+  border-radius: 10px;
+  background-color: #7420FF;
+  width: 100px;
+  height: 40px;
+  color: #fff;
+  margin: 20px;
+  margin-left:480px;
+}
+
+.animal-txt{
+  width: 400px;
+  text-align: left;
+  margin: auto;
+  padding: 20px 0px;
+}
+
