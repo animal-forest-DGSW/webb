@@ -21,7 +21,7 @@ let data=[
   },
 
   {
-    img:"",
+    img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROBawmDMd1PweC_KU1tBMXtRQOn3OUepi3YPcfHFOCp3WUTHMMYT3CjkHhr1K19ye4O3A&usqp=CAU",
     id : 3,
     title : "강아지",
     content : "멍멍ㅋㅋ",
@@ -50,21 +50,21 @@ let data=[
 
 
   {
-    img:"",
+    img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROBawmDMd1PweC_KU1tBMXtRQOn3OUepi3YPcfHFOCp3WUTHMMYT3CjkHhr1K19ye4O3A&usqp=CAU",
     id : 7,
     title : "강아지",
     content : "멍멍ㅋㅋ",
   },
 
   {
-    img:"",
+    img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROBawmDMd1PweC_KU1tBMXtRQOn3OUepi3YPcfHFOCp3WUTHMMYT3CjkHhr1K19ye4O3A&usqp=CAU",
     id : 8,
     title : "강아지",
     content : "멍멍ㅋㅋ",
   },
 
   {
-    img:"",
+    img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROBawmDMd1PweC_KU1tBMXtRQOn3OUepi3YPcfHFOCp3WUTHMMYT3CjkHhr1K19ye4O3A&usqp=CAU",
     id : 9,
     title : "강아지",
     content : "멍멍ㅋㅋ",
