@@ -23,7 +23,7 @@ function App() {
 
     <Navbar collapseOnSelect expand="lg">
       <Container className='header'>
-        <Navbar.Brand href="/" className='logo'>찾았소고</Navbar.Brand>
+        <Navbar.Brand href="/" className='logo'>FOUNDgsw</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
@@ -55,7 +55,7 @@ function App() {
           <div className='fade-in-box'>
           <div className='maintxt'>
             <img className='call' src='img/call.png'/>
-            <h6 style={{marginBottom:'20px'}}>동물 찾기 프로젝트</h6>
+            <h6 style={{marginBottom:'10px'}}>반려동물 찾기 프로젝트</h6>
             <h1 style={{marginBottom:'20px'}}>FOUNDgsw</h1>
             <h5>모든 동물이 가족의 품으로 돌아갈 수 있을 때 까지</h5>
           </div>

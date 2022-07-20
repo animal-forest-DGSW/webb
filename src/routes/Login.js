@@ -14,16 +14,12 @@ function Login() {
     
       <div className='loginPg'>
         <div className='inBox'>
-        <img className="logoTxt" src="./img/찾았소고.png" />
-        <h5 style={{color:'#7420FF', marginBottom:'20px'}}>로그인</h5>
-        <input type='text' id="txtBox" placeholder="id"/>
-        <input type='password' id="txtBox" placeholder="password"/>
+        <img className="logoTxt" src="../img/found.png" />
+        <h5 style={{color:'#7420FF', marginBottom:'20px'}} >로그인</h5>
+        <input type='text' id="txtBox" placeholder="id" onChange={(e)=>(setId(e.target.value))}/>
+        <input type='password' id="txtBox" placeholder="password" onChange={(e)=>(setPassword(e.target.value))}/>
         <div>
-          <button className='idBtn' onClick={()=>{
-            axios.post('',{asdf:id, adf:password})
-            .then((result)=>{navigate('/')})
-            .catch(()=>{})
-          }}>
+          <button className='idBtn' onClick={()=>{navigate('/')}}>
             로그인</button>
         </div>
         </div>

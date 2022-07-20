@@ -30,7 +30,7 @@ function LargeDetail() {
     }
   <div>
     <button className="d-btn" onClick={()=>{
-        axios.get('')
+        axios.get('http://172.16.7.13:8080/list?classification=BIG')
         .then((result)=>{
           let copy = [...large, ...result.ldata];
           setLarge(copy);

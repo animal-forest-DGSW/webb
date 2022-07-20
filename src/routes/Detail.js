@@ -30,16 +30,6 @@ function Detail() {
       })
     }
 
-  <div>
-    <button className="d-btn" onClick={()=>{
-      axios.get('')
-      .then((result)=>{
-        let copy = [...small, ...result.data];
-        setSmall(copy);
-      })
-
-    }}>더보기</button>
-    </div>
 
     </>
   )
